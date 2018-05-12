@@ -1,0 +1,92 @@
+/* Fix this later to use less !important */
+.section_adjust--padding {
+  padding-top: calc(70px - 2em);
+  padding-bottom: 190px !important;
+}
+
+.section_flat--title {
+  font-size: 36px;
+  line-height: 46px;
+  color: #fff;
+  text-align: center;
+  margin: 0 !important;
+  padding: 0;
+  max-width: 100% !important;
+  width: 100% !important;
+  font-weight: 500 !important;
+  padding-bottom: 0 !important;
+}
+.section_flat--subtitle {
+  padding: 0 !important;
+  font-size: 32px !important;
+}
+#portfolio_hero--title {
+  padding-top: 40px;
+  padding-bottom: 10px
+}
+.portfolio-container {
+  margin: 0;
+  padding: 0;
+}
+.project-item {
+  padding: 0;
+  margin-bottom: 2em;
+}
+.portfolioImg {
+  width: 100%;
+  border-radius: 8px;
+}
+.portfolioInfo-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;  
+  border-radius: 8px;
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+.portfolioInfo-wrapper:hover {
+  background: rgba(36, 179, 115, 0.95);
+  opacity: 1;
+}
+.portfolioInfo-wrapper h3 {
+  font-size: 24px;
+  margin: 0;
+}
+.portfolioInfo-wrapper p {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 500px) {
+  .portfolioInfo-wrapper h3 {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .section_adjust--padding {
+    padding-bottom: 140px !important;
+  }
+}
+@media screen and (min-width: 900px) {
+  .portfolioInfo-wrapper h3 {
+    font-size: 32px;
+  }
+  .project-item {
+    width: 48%;
+    float: left;
+    margin: 1%;
+  }
+  .section_adjust--padding {
+    padding-top: 55px;
+    padding-bottom: 0;
+  }
+  .section_flat--title {
+    font-size: 46px;
+    line-height: 56px;
+  }
+}
