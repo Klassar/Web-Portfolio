@@ -8,7 +8,7 @@ git clone https://github.com/Klassar/Web-Portfolio
 ```
 
 # Contributing
-Nothing specific here. If you like what i started with and are enjoying the highly responsive design feel free to expand upon it and send me your addtions. Enjoy!
+Nothing specific here. If you like what i started with and are enjoying the highly responsive design feel free to expand upon it and send me your additions. Enjoy!
 
 # License
 [Web Portfolio](https://github.com/Klassar/Web-Portfolio) is a public domain project under [MIT](https://mit-license.org/)
